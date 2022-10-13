@@ -1,9 +1,8 @@
 {
   "name": "layouter-lab-back",
   "version": "1.0.0",
-  "packageManager": "pnpm@7.5.1",
   "scripts": {
-    "build": "echo \"ok $PORT\"",
+    "build": "echo $PORT",
     "test": "echo \"Error: no test specified\" && exit 0",
     "vercel dev": "directus start",
     "dev": "directus start",
