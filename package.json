@@ -1,11 +1,10 @@
 {
   "name": "layouter-lab-back",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "echo \"ok\"",
+    "build": "echo $PORT",
     "test": "echo \"Error: no test specified\" && exit 0",
+    "vercel dev": "directus start",
     "dev": "directus start",
     "run": "directus start",
     "start": "directus start",
@@ -13,7 +12,6 @@
     "type-check": "echo \"Error: no type check\" && exit 0",
     "add-extension": "cd packages;npm init directus-extension",
     "create-snapshot": "npx directus schema snapshot ./snapshots/\"$(date \"+%F\")\"-snapshot-\"$(date \"+%s\")\".yaml",
-    "cockroach-tunnel": "kubectl port-forward --namespace cockroachdb service/cockroachdb-public 26257",
     "migrate": "npx directus database migrate:latest"
   },
   "keywords": [],
