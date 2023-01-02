@@ -19,7 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "cockroachdb": "^1.0.3",
-    "directus": "^9.18.1",
+    "directus": "^9.22.1",
     "directus-extension-wpslug-interface": "^1.1.0"
   }
 }
